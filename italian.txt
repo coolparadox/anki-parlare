@@ -1,0 +1,29 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+#tags column:7
+words	italian	capire		entender		verbo
+words	italian	io capisco		eu entendo		verbo
+words	italian	tu capisci		você entende		verbo
+words	italian	lui capisce		ele entende		verbo
+words	italian	lei capisce		ela entende		verbo
+words	italian	noi capiamo		nós entendemos		verbo
+words	italian	loro capiscono	maschile	eles entendem		verbo
+words	italian	loro capiscono	femminile	elas entendem		verbo
+words	italian	mangiare		comer		verbo
+words	italian	io mangio		eu como		verbo
+words	italian	tu mangi		você come		verbo
+words	italian	lui mangia		ele come		verbo
+words	italian	lei mangia		ela come		verbo
+words	italian	noi mangiamo		nós comemos		verbo
+words	italian	loro mangiano	maschile	eles comem		verbo
+words	italian	loro mangiano	femminile	elas comem		verbo
+words	italian	parlare		falar		verbo
+words	italian	io parlo		eu falo		verbo
+words	italian	tu parli		você fala		verbo
+words	italian	lui parla		ele fala		verbo
+words	italian	lei parla		ela fala		verbo
+words	italian	noi parliamo		nós falamos		verbo
+words	italian	loro parlano	maschile	eles falam		verbo
+words	italian	loro parlano	femminile	elas falam		verbo

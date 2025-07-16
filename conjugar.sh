@@ -42,17 +42,15 @@ parse_html() {
 parse_html
 exit 1
 
-declare -A TABLE=( ['eu']='' ['tu']='' ['ele']='' ['ela']='' ['nós']='' ['vós']='' ['eles']='' ['elas']='' )
+declare -A TABLE=( ['eu']='' ['tu']='' ['ele']='' ['nós']='' ['vós']='' ['eles']='' )
 while read PRONOUN CONJUGATION ; do
     #echo $PRONOUN $CONJUGATION
     case $PRONOUN in
         'eu'|'tu'|'ele'|'nós'|'vós'|'eles') TABLE[$PRONOUN]=$CONJUGATION ;;
     esac
 done <<<$(parse_html)
-TABLE['ela']=${TABLE['ele']}
-TABLE['elas']=${TABLE['eles']}
 
-for PRONOUN in 'eu' 'tu' 'ele' 'ela' 'nós' 'vós' 'eles' 'elas' ; do
+for PRONOUN in 'eu' 'tu' 'ele' 'nós' 'vós' 'eles' ; do
     CONJUGATION=${TABLE[$PRONOUN]}
     test -n "$CONJUGATION" || fail "missing conjugation: '$PRONOUN'"
     echo $PRONOUN $CONJUGATION
