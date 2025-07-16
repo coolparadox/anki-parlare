@@ -24,4 +24,5 @@ while IFS=',' read IT IT_CTX PT PT_CTX ; do
     echo -ne "\\tverbo"
     echo -ne "\\n"
 done >>$DECK_FILE
+echo "updated: $DECK_FILE"
 

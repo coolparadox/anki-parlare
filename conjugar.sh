@@ -23,7 +23,9 @@ test -v CONJUGAR_CACHE_DIR || fail "CONJUGAR_CACHE_DIR not set"
 get_html() {
 	local HTML_PATH="$CONJUGAR_CACHE_DIR/${VERB}.html"
 	test -s "$HTML_PATH" || {
-        wget -q -O "$HTML_PATH" "https://www.conjugacao.com.br/verbo-${VERB}/"
+	local URL="https://www.conjugacao.com.br/verbo-${VERB}/"
+	echo "retrieving: ${URL}" >&2
+        wget -q -O "$HTML_PATH" "$URL"
         test -s "$HTML_PATH"
     }
     cat "$HTML_PATH"

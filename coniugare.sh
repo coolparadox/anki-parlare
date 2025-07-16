@@ -23,7 +23,9 @@ test -v CONIUGARE_CACHE_DIR || fail "CONIUGARE_CACHE_DIR not set"
 get_html() {
 	local HTML_PATH="$CONIUGARE_CACHE_DIR/${VERB}.html"
 	test -s "$HTML_PATH" || {
-        wget -q -O "$HTML_PATH" "https://italianverbs.info/$VERB"
+	local URL="https://italianverbs.info/$VERB"
+	echo "retrieving: ${URL}" >&2
+        wget -q -O "$HTML_PATH" "$URL"
         test -s "$HTML_PATH"
     }
     cat "$HTML_PATH"

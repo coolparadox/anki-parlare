@@ -3,6 +3,14 @@
 #notetype column:1
 #deck column:2
 #tags column:7
+words	italian	avere		ter		verbo
+words	italian	io ho		eu tenho		verbo
+words	italian	tu hai		você tem		verbo
+words	italian	lui ha		ele tem		verbo
+words	italian	lei ha		ela tem		verbo
+words	italian	noi abbiamo		nós temos		verbo
+words	italian	loro hanno	maschile	eles têm		verbo
+words	italian	loro hanno	femminile	elas têm		verbo
 words	italian	capire		entender		verbo
 words	italian	io capisco		eu entendo		verbo
 words	italian	tu capisci		você entende		verbo
@@ -11,6 +19,38 @@ words	italian	lei capisce		ela entende		verbo
 words	italian	noi capiamo		nós entendemos		verbo
 words	italian	loro capiscono	maschile	eles entendem		verbo
 words	italian	loro capiscono	femminile	elas entendem		verbo
+words	italian	dovere		dever		verbo
+words	italian	io debbo		eu devo		verbo
+words	italian	tu devi		você deve		verbo
+words	italian	lui deve		ele deve		verbo
+words	italian	lei deve		ela deve		verbo
+words	italian	noi dobbiamo		nós devemos		verbo
+words	italian	loro debbono	maschile	eles devem		verbo
+words	italian	loro debbono	femminile	elas devem		verbo
+words	italian	essere		ser		verbo
+words	italian	io sono		eu sou		verbo
+words	italian	tu sei		você é		verbo
+words	italian	lui è		ele é		verbo
+words	italian	lei è		ela é		verbo
+words	italian	noi siamo		nós somos		verbo
+words	italian	loro sono	maschile	eles são		verbo
+words	italian	loro sono	femminile	elas são		verbo
+words	italian	fare		fazer		verbo
+words	italian	io faccio		eu faço		verbo
+words	italian	tu fai		você faz		verbo
+words	italian	lui fa		ele faz		verbo
+words	italian	lei fa		ela faz		verbo
+words	italian	noi facciamo		nós fazemos		verbo
+words	italian	loro fanno	maschile	eles fazem		verbo
+words	italian	loro fanno	femminile	elas fazem		verbo
+words	italian	guardare		olhar		verbo
+words	italian	io guardo		eu olho		verbo
+words	italian	tu guardi		você olha		verbo
+words	italian	lui guarda		ele olha		verbo
+words	italian	lei guarda		ela olha		verbo
+words	italian	noi guardiamo		nós olhamos		verbo
+words	italian	loro guardano	maschile	eles olham		verbo
+words	italian	loro guardano	femminile	elas olham		verbo
 words	italian	mangiare		comer		verbo
 words	italian	io mangio		eu como		verbo
 words	italian	tu mangi		você come		verbo
@@ -27,3 +67,27 @@ words	italian	lei parla		ela fala		verbo
 words	italian	noi parliamo		nós falamos		verbo
 words	italian	loro parlano	maschile	eles falam		verbo
 words	italian	loro parlano	femminile	elas falam		verbo
+words	italian	potere		poder		verbo
+words	italian	io posso		eu posso		verbo
+words	italian	tu puoi		você pode		verbo
+words	italian	lui può		ele pode		verbo
+words	italian	lei può		ela pode		verbo
+words	italian	noi possiamo		nós podemos		verbo
+words	italian	loro possono	maschile	eles podem		verbo
+words	italian	loro possono	femminile	elas podem		verbo
+words	italian	vedere		ver		verbo
+words	italian	io veggo		eu vejo		verbo
+words	italian	tu vedi		você vê		verbo
+words	italian	lui vede		ele vê		verbo
+words	italian	lei vede		ela vê		verbo
+words	italian	noi vediamo		nós vemos		verbo
+words	italian	loro veggono	maschile	eles veem		verbo
+words	italian	loro veggono	femminile	elas veem		verbo
+words	italian	volere		querer		verbo
+words	italian	io vuò		eu quero		verbo
+words	italian	tu vuoi		você quer		verbo
+words	italian	lui vuole		ele quer		verbo
+words	italian	lei vuole		ela quer		verbo
+words	italian	noi vogliamo		nós queremos		verbo
+words	italian	loro vogliono	maschile	eles querem		verbo
+words	italian	loro vogliono	femminile	elas querem		verbo

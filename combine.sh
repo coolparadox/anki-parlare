@@ -5,12 +5,15 @@ WHEREAMI=$(dirname 0)
 VERBS_FILE="$WHEREAMI/verbs.lst"
 TENSES_FILE="$WHEREAMI/tenses.lst"
 BASE_CACHE_DIR="$WHEREAMI/cache"
+export CONIUGARE_CACHE_DIR="$BASE_CACHE_DIR/coniugare"
+export CONJUGAR_CACHE_DIR="$BASE_CACHE_DIR/conjugar"
+mkdir -p "$CONIUGARE_CACHE_DIR" "$CONJUGAR_CACHE_DIR"
 
 declare -A TABLE_IT
 declare -A TABLE_PT
 
 coniugare() {
-    CONIUGARE_CACHE_DIR="$BASE_CACHE_DIR/coniugare" $WHEREAMI/coniugare.sh $VERB_IT $MOOD_IT $TENSE_IT
+    $WHEREAMI/coniugare.sh $VERB_IT $MOOD_IT $TENSE_IT
 }
 
 update_table_it() {
@@ -20,7 +23,7 @@ update_table_it() {
 }
 
 conjugar() {
-    CONJUGAR_CACHE_DIR="$BASE_CACHE_DIR/conjugar" $WHEREAMI/conjugar.sh $VERB_PT $MOOD_PT $TENSE_PT
+    $WHEREAMI/conjugar.sh $VERB_PT $MOOD_PT $TENSE_PT
 }
 
 update_table_pt() {
